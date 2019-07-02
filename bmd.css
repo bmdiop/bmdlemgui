@@ -1,0 +1,111 @@
+body{
+	min-height: 220vh;
+}
+#bmd{
+	border: 1px white solid;
+	background-color: #333333;
+	margin: 0px;
+	padding: 0px; 
+	position: absolute;left: 0;top: 0;right: 0;
+	z-index: 1;
+	}
+	#fond{
+	background: url(enfant.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding: 110px;
+	position: relative;
+	
+}
+button{
+	background-color: yellow;
+	background-size: 30px;
+}
+.carres{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+	
+}
+.carre{
+	background-color:rgb(255, 209, 72);
+	border: 0px solid black;
+	width: 350px; 
+	display: flex;
+	margin-left:50px; 
+	padding-left: 10px;
+	position: relative;bottom: 100px;
+	padding: 15px;
+}
+
+}
+.lemgui{
+    width: 1Opx;
+    height: 20px;
+    padding-right: 270px;
+	color: #ffaa22;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    height: 15px;   
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.nation
+{
+    color: white;
+    font-size: 30px;
+}
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.detail{
+	padding: 12px;
+	font-size: 20px;
+	padding-left: 1px;
+}
+.corp{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 10px;
+
+}
+.phrase{
+	font-size: 14px;
+}
